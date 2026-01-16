@@ -1,0 +1,99 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hero Height Reveal</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+
+    <header>
+        <nav>
+            <div class="nav-left">
+                <span class="nav-item logo" data-page="home">Mazda-RX7</span>
+            </div>
+            <div class="nav-right">
+                <span class="nav-item active" data-page="home">Home</span>
+                <span class="nav-item" data-page="about">About</span>
+                <span class="nav-item" data-page="history">History</span>
+                <span class="nav-item" data-page="contact">Contact</span>
+            </div>
+        </nav>
+
+        <section id="home" class="page active">
+            <div class="hero">
+                <img src="/images/mazda-rx7.jpg" alt="">
+                <h1 class="headline">Mazda-rx7</h1>
+                <p class="subheadline">Timeless JDM engineering, redefined.</p>
+                <button class="cta">Explore</button>
+            </div>
+        </section>
+        <div class="slider"></div>
+    </header>
+
+    <section class="stats-container">
+        <div class="stat-box reveal" data-anim="fadeUp">
+            <span class="stat-label">Engine</span>
+            <span class="stat-value">13B-REW</span>
+        </div>
+        <div class="stat-box reveal" data-anim="fadeUp">
+            <span class="stat-label">Power</span>
+            <span class="stat-value">255 HP</span>
+        </div>
+        <div class="stat-box reveal" data-anim="fadeUp">
+            <span class="stat-label">Weight</span>
+            <span class="stat-value">1,280 KG</span>
+        </div>
+        <div class="stat-box reveal" data-anim="fadeUp">
+            <span class="stat-label">0-100 km/h</span>
+            <span class="stat-value">5.1s</span>
+        </div>
+    </section>
+
+    <section class="spotlight">
+        <div class="spotlight-content">
+            <h2 class="reveal" data-anim="fadeUp">The Rotary Spirit</h2>
+            <p>Unlike traditional piston engines, the RX-7's 13B rotary engine delivers smooth, high-revving power that screams all the way to 8,000 RPM. It’s not just a car; it’s an engineering masterpiece.</p>
+            <button class="cta-secondary reveal" onclick="window.location.href='#about'" data-anim="fadeUp">Learn More</button>
+        </div>
+        <div class="spotlight-image">
+            <img src="/images/mazda-rx7-side.jpeg" alt="Mazda RX7 Side View">
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="gallery-item">
+            <img src="/images/mazda-rx7-front.jpg" alt="Front View">
+            <div class="overlay"><span>Aero</span></div>
+        </div>
+        <div class="gallery-item">
+            <img src="/images/mazda-rx7-rear.jpg" alt="Rear View">
+            <div class="overlay"><span>Heritage</span></div>
+        </div>
+        <div class="gallery-item">
+            <img src="/images/mazda-rx7-interior.jpg" alt="Interior View">
+            <div class="overlay"><span>Cockpit</span></div>
+        </div>
+    </section>
+
+    <footer class="home-footer">
+        <div class="footer-content">
+            <h2>Got a Build?</h2>
+            <p>Whether you're running a stock FD or a 4-rotor monster, we want to see it.</p>
+            <button class="cta" onclick="window.location.href='contact.html'">Submit Your RX-7</button>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mazda-RX7 Heritage Project</p>
+        </div>
+    </footer>
+
+    <section id="about" class="page hidden">
+        <h1>testing about page</h1>
+    </section>
+
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="script.js" defer></script>
+
+    </body>
+    </html>

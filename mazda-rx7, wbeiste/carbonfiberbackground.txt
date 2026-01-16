@@ -1,0 +1,40 @@
+background-color: #121212;
+background-image: linear-gradient(30deg, #161616 12%, transparent 12.5%, transparent 87%, #161616 87.5%, #161616), 
+linear-gradient(150deg, #161616 12%, transparent 12.5%, transparent 87%, #161616 87.5%, #161616), 
+linear-gradient(30deg, #161616 12%, transparent 12.5%, transparent 87%, #161616 87.5%, #161616), 
+linear-gradient(150deg, #161616 12%, transparent 12.5%, transparent 87%, #161616 87.5%, #161616), 
+linear-gradient(60deg, #1f1f1f 25%, transparent 25.5%, transparent 75%, #1f1f1f 75%, #1f1f1f), 
+linear-gradient(60deg, #1f1f1f 25%, transparent 25.5%, transparent 75%, #1f1f1f 75%, #1f1f1f);
+background-size: 20px 35px;
+
+
+
+<section class="about">
+    <h2>The Legend</h2>
+    <p>
+        The Mazda RX-7 is an icon of balance, engineering, and soul.
+        Lightweight design paired with rotary power created a driving
+        experience unlike any other.
+    </p>
+</section>
+
+<section class="features">
+    <div class="feature">Lightweight Chassis</div>
+    <div class="feature">Rotary Power</div>
+    <div class="feature">Timeless Design</div>
+</section>
+
+<section class="gallery">
+    <img src="/images/rx7-1.jpg">
+    <img src="/images/rx7-2.jpg">
+    <img src="/images/rx7-3.jpg">
+</section>
+
+<section class="cta-section">
+    <h2>Experience the Icon</h2>
+    <button>Contact</button>
+</section>
+
+<footer>
+    <p>© 2026 — Concept Build</p>
+</footer>
