@@ -6,3 +6,6 @@ to better my skills in the use of html, css and javascript. Any useful tips
 are very much apreciated.
 
 --CoruptFile 12/1/2026
+
+
+ARHH
