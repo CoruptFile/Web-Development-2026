@@ -1,0 +1,113 @@
+
+
+
+
+
+
+
+
+
+
+/* * M-E STYLESHEET
+* * SEARCH TAGS:
+* [--VARS]    - Colors & Fonts
+* [--BASE]    - Global Styles
+* [--NAV]     - Navigation & Logo
+* 
+* 
+* 
+* 
+=====================================================*/
+
+/*====================================================
+CTRL + F
+=====================================================*/
+
+/* ==========================================================================
+   [--VARS]
+   ========================================================================== */
+:root {
+    --bg: white;
+    --a: black;
+    --oswald: "Oswald", sans-serif;
+    --arial: arial;
+    --nav-bg: #e4dccc;
+    --yellow: #f7f79f; 
+}
+
+/* ==========================================================================
+   [--BASE]
+   ========================================================================== */
+body {
+    background-color: var(--bg);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+    html {
+  scroll-behavior: smooth;
+}
+
+/* ==========================================================================
+   [--NAV]
+   ========================================================================== */
+
+nav {
+    margin: 45px 10rem 45px 10rem;
+    padding: 7px 0px 7px 0px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: var(--nav-bg);
+    width: 1126px;
+    border-radius: 50px;
+    border: 1px solid black;
+
+    a {
+        text-decoration: none;
+        color: var(--a);
+    }
+}
+
+.nav-left {
+    
+
+    a{
+        font-family: var(--oswald);
+        font-size: 1.5rem;
+    }
+}
+
+.nav-mid {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    
+    a {
+        font-family: var(--arial);
+        font-size: 1rem;
+    }
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    a {
+        font-family: var(--arial);
+        font-size: 1rem;
+    }
+
+    #sign-up {
+    background-color: var(--yellow);
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+}
